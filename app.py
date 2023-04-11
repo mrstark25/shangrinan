@@ -11,9 +11,9 @@ def cryptobot():
     return jsonify( answer )
 
 
-@app.route('/')
-def  home():
-    return "nIKHIL"
+# @app.route('/')
+# def  home():
+#     return "nIKHIL"
 
 
 

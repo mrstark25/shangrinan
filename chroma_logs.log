@@ -312,3 +312,33 @@ INFO:werkzeug:127.0.0.1 - - [01/Apr/2023 23:19:32] "GET /bot?question=what%20is%
 DEBUG:Chroma:time to pre process our knn query: 0.0
 DEBUG:Chroma:time to run knn query: 0.0
 INFO:werkzeug:127.0.0.1 - - [01/Apr/2023 23:19:41] "GET /bot?question=what%20is%20z HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+DEBUG:Chroma:Logger created
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 4.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 8.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+WARNING:langchain.embeddings.openai:Retrying langchain.embeddings.openai.embed_with_retry.<locals>._completion_with_retry in 10.0 seconds as it raised RateLimitError: You exceeded your current quota, please check your plan and billing details..
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+DEBUG:Chroma:Index saved to .chroma/index/index.bin
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-812-382
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009107589721679688
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2023 15:55:51] "GET /bot?question=what%20is%20crypto HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Apr/2023 15:55:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
