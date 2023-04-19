@@ -17,7 +17,7 @@ from langchain.document_loaders import DirectoryLoader
 import magic
 import os
 import nltk 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 loader = DirectoryLoader('C:\\Users\\nikhi\\Downloads\\newfolder4',glob='**/*.csv')
 docs = loader.load()
 char_text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
