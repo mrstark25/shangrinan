@@ -1,5 +1,5 @@
 from flask import Flask,jsonify,request
-from website.chat import model
+from website.chat import agent
 
 app = Flask(__name__)
 
@@ -7,7 +7,7 @@ app = Flask(__name__)
 def cryptobot():    
 
     question = request.args.get("question")
-    answer = (model.run(question))
+    answer = (agent.run(question))
     return jsonify( answer )
 
 
